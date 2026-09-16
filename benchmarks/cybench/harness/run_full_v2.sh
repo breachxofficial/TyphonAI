@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
-# Clean FULL 39-task pass with the improved scaffold (cybench_plus_v2), fully
-# internet-isolated (DOCKER-USER egress lock) + pre-baked toolkit. This is the
-# canonical run for an exact pass@1 / pass@3 headline.
-# Budgets per I1: message 250, time 3600s (tool-timeout 600s is in the task).
+# Cybench hard (39-task) unguided run with the cybench_plus_v2 agent, internet-isolated
+# (DOCKER-USER egress lock). Budgets: message-limit 250, time-limit 3600s, tool-timeout 600s.
 set -euo pipefail
 cd ~/cybench
 source .venv/bin/activate

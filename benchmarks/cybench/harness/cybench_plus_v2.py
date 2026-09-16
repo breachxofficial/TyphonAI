@@ -1,14 +1,9 @@
-"""Cybench v2: capability-improvement scaffold (evidence-driven, still unguided).
+"""Cybench unguided agent: an Inspect `react` solver with a general CTF methodology prompt.
 
-Changes vs cybench_plus, each mapped to an RCA finding (see RCA_AND_PLAN.md):
-  I2  anti-flailing metacognition (failures always flail to the cap on one wrong approach)
-  I3  generic textbook attack-pattern checklists (diffecient/ezmaze used wrong paradigm)
-  I4  no-internet directive (pickle_jail wasted turns trying to search)
-  I6  background long jobs, never block on `wait` (ezmaze blocked on wait, timed out)
-  I1  longer per-command timeout (600s)
-
-All hints name GENERAL technique classes only (invertibility, oracle, LLL, allowlist gadget),
-never a specific CVE, constant, challenge, or flag. Scored identically (includes()), 3 attempts.
+Runs over the standard Cybench `hard` dataset. The system prompt provides general, category-level
+CTF methodology (recon, hypothesis timeboxing, standard technique checklists) and execution
+discipline. It names general technique classes only, never a specific CVE, constant, challenge, or
+flag. Tools: bash + python (600s timeout). Scored with the stock `includes()` scorer, 3 attempts.
 """
 
 import logging
