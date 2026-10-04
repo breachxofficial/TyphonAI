@@ -1,0 +1,76 @@
+[2026-08-31T18:03:40+00:00] installing cu130 vLLM nightly via index
+Using Python 3.12.3 environment at: /workspace/.venv
+Resolved 196 packages in 3.35s
+Downloading torchcodec (9.0MiB)
+Downloading nvidia-cuda-cccl (3.7MiB)
+Downloading pydantic-core (2.0MiB)
+Downloading nvidia-cuda-nvcc (45.5MiB)
+Downloading instanttensor (5.6MiB)
+Downloading nvidia-nvvm (69.3MiB)
+Downloading xgrammar (1.4MiB)
+Downloading nvidia-nvjitlink (40.5MiB)
+Downloading torch (502.1MiB)
+Downloading torchaudio (1.6MiB)
+Downloading flashinfer-python (17.5MiB)
+Downloading hf-xet (4.3MiB)
+Downloading nvidia-cuda-nvdisasm (5.0MiB)
+Downloading nvidia-cutlass-dsl-libs-cu13 (84.0MiB)
+Downloading torchvision (7.3MiB)
+Downloading vllm (301.3MiB)
+ Downloading pydantic-core
+ Downloading hf-xet
+ Downloading nvidia-cuda-nvdisasm
+ Downloading instanttensor
+ Downloading nvidia-nvjitlink
+ Downloading xgrammar
+ Downloading torchaudio
+ Downloading nvidia-cuda-nvcc
+ Downloading nvidia-nvvm
+ Downloading nvidia-cutlass-dsl-libs-cu13
+ Downloading torchcodec
+ Downloading torchvision
+ Downloading nvidia-cuda-cccl
+ Downloading flashinfer-python
+ Downloading vllm
+ Downloading torch
+Prepared 21 packages in 8.93s
+Uninstalled 14 packages in 336ms
+Installed 21 packages in 192ms
+ - cuda-tile==1.5.0
+ + cuda-tile==1.6.0rc8
+ - einops==0.8.2
+ + einops==0.9.0.dev0
+ - flashinfer-python==0.6.16.post3
+ + flashinfer-python==0.6.18
+ - hf-xet==1.6.0
+ + hf-xet==1.6.1a0
+ + instanttensor==0.1.9
+ + nvidia-cuda-cccl==13.3.4.1.2rc1
+ + nvidia-cuda-crt==13.4.46rc1
+ + nvidia-cuda-nvcc==13.4.46rc1
+ - nvidia-cuda-nvdisasm==13.3.73
+ + nvidia-cuda-nvdisasm==13.4.46rc1
+ + nvidia-cutlass-dsl-libs-cu13==4.6.2
+ - nvidia-nvjitlink==13.3.33
+ + nvidia-nvjitlink==13.4.46rc1
+ + nvidia-nvvm==13.4.46rc1
+ - pydantic==2.13.5
+ + pydantic==2.14.0b1
+ - pydantic-core==2.46.5
+ + pydantic-core==2.48.0
+ - sentry-sdk==2.68.1
+ + sentry-sdk==3.0.0a7
+ - torch==2.13.0
+ + torch==2.13.0+cu130
+ + torchaudio==2.11.0+cu130
+ - torchcodec==0.16.0
+ + torchcodec==0.16.0+cu130
+ - torchvision==0.28.0
+ + torchvision==0.28.0+cu130
+ - vllm==0.28.0+cu129 (from https://github.com/vllm-project/vllm/releases/download/v0.28.0/vllm-0.28.0+cu129-cp38-abi3-manylinux_2_28_x86_64.whl)
+ + vllm==0.28.1rc1.dev164+g39e276eae
+ - xgrammar==0.2.3
+ + xgrammar==0.2.6rc2
+[2026-08-31T18:03:53+00:00] versions
+torch 2.13.0+cu130 cuda 13.0 vllm 0.28.1rc1.dev164+g39e276eae
+VLLM_CU130_DONE
